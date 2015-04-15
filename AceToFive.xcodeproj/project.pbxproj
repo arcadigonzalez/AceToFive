@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84220E3B1ADF1520001B9501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84220E3A1ADF1520001B9501 /* AppDelegate.swift */; };
+		84220E3D1ADF1520001B9501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84220E3C1ADF1520001B9501 /* ViewController.swift */; };
+		84220E401ADF1520001B9501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84220E3E1ADF1520001B9501 /* Main.storyboard */; };
+		84220E421ADF1520001B9501 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84220E411ADF1520001B9501 /* Images.xcassets */; };
+		84220E451ADF1520001B9501 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84220E431ADF1520001B9501 /* LaunchScreen.xib */; };
+		84220E511ADF1520001B9501 /* AceToFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84220E501ADF1520001B9501 /* AceToFiveTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84220E4B1ADF1520001B9501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84220E2D1ADF1520001B9501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84220E341ADF1520001B9501;
+			remoteInfo = AceToFive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84220E351ADF1520001B9501 /* AceToFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AceToFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84220E391ADF1520001B9501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84220E3A1ADF1520001B9501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84220E3C1ADF1520001B9501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84220E3F1ADF1520001B9501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84220E411ADF1520001B9501 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84220E441ADF1520001B9501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84220E4A1ADF1520001B9501 /* AceToFiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AceToFiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84220E4F1ADF1520001B9501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84220E501ADF1520001B9501 /* AceToFiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceToFiveTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84220E321ADF1520001B9501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84220E471ADF1520001B9501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84220E2C1ADF1520001B9501 = {
+			isa = PBXGroup;
+			children = (
+				84220E371ADF1520001B9501 /* AceToFive */,
+				84220E4D1ADF1520001B9501 /* AceToFiveTests */,
+				84220E361ADF1520001B9501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84220E361ADF1520001B9501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84220E351ADF1520001B9501 /* AceToFive.app */,
+				84220E4A1ADF1520001B9501 /* AceToFiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84220E371ADF1520001B9501 /* AceToFive */ = {
+			isa = PBXGroup;
+			children = (
+				84220E3A1ADF1520001B9501 /* AppDelegate.swift */,
+				84220E3C1ADF1520001B9501 /* ViewController.swift */,
+				84220E3E1ADF1520001B9501 /* Main.storyboard */,
+				84220E411ADF1520001B9501 /* Images.xcassets */,
+				84220E431ADF1520001B9501 /* LaunchScreen.xib */,
+				84220E381ADF1520001B9501 /* Supporting Files */,
+			);
+			path = AceToFive;
+			sourceTree = "<group>";
+		};
+		84220E381ADF1520001B9501 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84220E391ADF1520001B9501 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84220E4D1ADF1520001B9501 /* AceToFiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				84220E501ADF1520001B9501 /* AceToFiveTests.swift */,
+				84220E4E1ADF1520001B9501 /* Supporting Files */,
+			);
+			path = AceToFiveTests;
+			sourceTree = "<group>";
+		};
+		84220E4E1ADF1520001B9501 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84220E4F1ADF1520001B9501 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84220E341ADF1520001B9501 /* AceToFive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84220E541ADF1520001B9501 /* Build configuration list for PBXNativeTarget "AceToFive" */;
+			buildPhases = (
+				84220E311ADF1520001B9501 /* Sources */,
+				84220E321ADF1520001B9501 /* Frameworks */,
+				84220E331ADF1520001B9501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AceToFive;
+			productName = AceToFive;
+			productReference = 84220E351ADF1520001B9501 /* AceToFive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84220E491ADF1520001B9501 /* AceToFiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84220E571ADF1520001B9501 /* Build configuration list for PBXNativeTarget "AceToFiveTests" */;
+			buildPhases = (
+				84220E461ADF1520001B9501 /* Sources */,
+				84220E471ADF1520001B9501 /* Frameworks */,
+				84220E481ADF1520001B9501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84220E4C1ADF1520001B9501 /* PBXTargetDependency */,
+			);
+			name = AceToFiveTests;
+			productName = AceToFiveTests;
+			productReference = 84220E4A1ADF1520001B9501 /* AceToFiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84220E2D1ADF1520001B9501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Arcadi Gonzalez";
+				TargetAttributes = {
+					84220E341ADF1520001B9501 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					84220E491ADF1520001B9501 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 84220E341ADF1520001B9501;
+					};
+				};
+			};
+			buildConfigurationList = 84220E301ADF1520001B9501 /* Build configuration list for PBXProject "AceToFive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84220E2C1ADF1520001B9501;
+			productRefGroup = 84220E361ADF1520001B9501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84220E341ADF1520001B9501 /* AceToFive */,
+				84220E491ADF1520001B9501 /* AceToFiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84220E331ADF1520001B9501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84220E401ADF1520001B9501 /* Main.storyboard in Resources */,
+				84220E451ADF1520001B9501 /* LaunchScreen.xib in Resources */,
+				84220E421ADF1520001B9501 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84220E481ADF1520001B9501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84220E311ADF1520001B9501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84220E3D1ADF1520001B9501 /* ViewController.swift in Sources */,
+				84220E3B1ADF1520001B9501 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84220E461ADF1520001B9501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84220E511ADF1520001B9501 /* AceToFiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84220E4C1ADF1520001B9501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84220E341ADF1520001B9501 /* AceToFive */;
+			targetProxy = 84220E4B1ADF1520001B9501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84220E3E1ADF1520001B9501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84220E3F1ADF1520001B9501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84220E431ADF1520001B9501 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84220E441ADF1520001B9501 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84220E521ADF1520001B9501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84220E531ADF1520001B9501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84220E551ADF1520001B9501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AceToFive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84220E561ADF1520001B9501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AceToFive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84220E581ADF1520001B9501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AceToFiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AceToFive.app/AceToFive";
+			};
+			name = Debug;
+		};
+		84220E591ADF1520001B9501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AceToFiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AceToFive.app/AceToFive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84220E301ADF1520001B9501 /* Build configuration list for PBXProject "AceToFive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84220E521ADF1520001B9501 /* Debug */,
+				84220E531ADF1520001B9501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84220E541ADF1520001B9501 /* Build configuration list for PBXNativeTarget "AceToFive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84220E551ADF1520001B9501 /* Debug */,
+				84220E561ADF1520001B9501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84220E571ADF1520001B9501 /* Build configuration list for PBXNativeTarget "AceToFiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84220E581ADF1520001B9501 /* Debug */,
+				84220E591ADF1520001B9501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84220E2D1ADF1520001B9501 /* Project object */;
+}
